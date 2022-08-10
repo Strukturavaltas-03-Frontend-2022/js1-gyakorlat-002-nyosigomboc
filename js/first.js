@@ -6,7 +6,7 @@ __térjen vissza__ az elemek egész számra kerekített összegével!
 */
 
 const VAT = 1.27
-function brutto(prices)
+const brutto = function(prices)
 {
     return Math.round(prices.reduce((accu, price) => accu + price * VAT, 0))
 }

@@ -17,7 +17,7 @@ hogy a tömbben van-e number típusú elem vagy sem
 */
 
 
-function checker(arr, value)
+const checker = function(arr, value)
 {
     const valueChecker = x => x === value
     const numberChecker = x => !isNaN(x)
