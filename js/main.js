@@ -4,3 +4,8 @@
 - A függvény neve `generateList` legyen!
 - A HTML-template egy lista, amelynek a listaelemei a kapott tömb értékeit tartalmazzák.
 */
+
+function generateList(arr)
+{
+    return "<ul>\n" + arr.map(s => `  <li>${s}</li>\n`).join('') + "</ul>\n";
+}
